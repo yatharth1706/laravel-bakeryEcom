@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    position: relative;
+  }
+  
+  .first {
+    width: 50%;
+    height: 100%;
+    background-color: #0062cc;
+  }
+  
+  .second {
+    width: 50%;
+    height: 100%;
+  }
+  
+  .form-box {
+    height: 70%;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    display: flex;
+    box-shadow: 5px 5px 40px black;
+  }
+  
+  .signup {
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff;
+    padding: 30px;
+  }
+  
+  .signup-heading {
+    width: 100%;
+    background: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+    border: none;
+    outline-style: none;
+  }
+  
+  .signup-heading:focus {
+    outline-style: none;
+  }
+  
+  .signup input {
+    width: 90%;
+    outline: 0;
+    border-width: 0 0 1.5px;
+    border-color: black;
+    font-size: 13px;
+    padding: 0 0 2px;
+  }
+  
+  .signup label {
+    margin: 0;
+  }
+  
+  .signup h1 {
+    text-align: center;
+  }
+  .signup-button {
+    text-align: center;
+    padding: 20px 0px;
+  }
+  
+  .signup-button .btn {
+    width: 80% !important;
+  }
+  
+  .login {
+    width: 50%;
+    height: 100%;
+    background-color: #ffffff;
+    padding: 30px;
+  }
+  
+  .login-heading {
+    width: 100%;
+    background: #ffffff;
+    font-size: 28px;
+    font-weight: 400;
+    border: none;
+    outline-style: none;
+  }
+  
+  .login-heading:focus {
+    outline-style: none;
+  }
+  
+  .login input {
+    width: 90%;
+    outline: 0;
+    border-width: 0 0 1.5px;
+    border-color: black;
+    font-size: 13px;
+    padding: 0 0 2px;
+  }
+  
+  .login label {
+    margin: 0;
+  }
+  
+  .login h1 {
+    text-align: center;
+  }
+  .login-button {
+    text-align: center;
+    padding: 20px 0px;
+  }
+  
+  .login-button .btn {
+    width: 80% !important;
+  }
+  .switcher {
+    width: 50%;
+    height: 100%;
+    background-color: #0062cc;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-switcher {
+    color: white;
+    margin: 0 auto;
+  }
+  
+  .login-switcher button {
+    background-color: #ffffff;
+    color: #0062cc;
+    font-weight: 600;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .login-switcher a {
+    text-decoration: none;
+  }
+  
+  .login-switcher button:focus {
+    outline-style: none;
+  }
+  
+  .signup-switcher {
+    color: white;
+    margin: 0 auto;
+  }
+  
+  .signup-switcher button {
+    background-color: #ffffff;
+    color: #0062cc;
+    font-weight: 600;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .signup-switcher a {
+    text-decoration: none;
+  }
+  
+  .signup-switcher button:focus {
+    outline-style: none;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-left: 12px;
+  }
+  
