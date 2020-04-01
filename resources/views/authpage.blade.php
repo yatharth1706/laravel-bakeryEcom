@@ -67,7 +67,7 @@
                 submit
               </button>
             </div>
-            <!-- <p class="error"><?= $signup_message ?></p> -->
+            <p class="error"></p>
           </form>
         </div>
 
