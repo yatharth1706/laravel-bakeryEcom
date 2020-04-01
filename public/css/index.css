@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.banner1 {
+  background-image: url("../img/banner1.png");
+  background-size: 100% 100%;
+  width: 56%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.banner1-content {
+  color: white;
+  margin: 0 100px;
+
+  font-size: 20px;
+}
+
+.banner-img {
+  width: 44%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.img3{
+  margin-top: 160px;
+  width: 80%;
+  height: 50%;
+}
+.logo-content {
+  text-align: center;
+}
+
+.logo {
+  /* font-family: "Tangerine", cursive; */
+  color: white;
+  font-size: 60px;
+}
+
+.nav1 {
+  border-top: solid #222222 2px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.nav1 img {
+  height: 100px;
+}
+
+.nav1-links {
+  font-size: 18px;
+  margin: 15px auto;
+}
+
+.nav1-links a {
+  padding: 15px;
+  color: #222222;
+  text-decoration: none;
+  text-decoration: none !important;
+  float: left;
+}
+
+.nav1-cart {
+  text-align: center;
+  font-size: 25px;
+  margin: 15px auto;
+  padding: 15px;
+}
+
+.nav1-cart a {
+  padding: 10px;
+  color: #222222;
+}
+
+/* MENU */
+
+.menu-banner {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Lobster', cursive;
+}
+
+.menu-box {
+  /*background-color: black;*/
+  height: auto;
+  padding: 18px 18px;
+}
+
+.card{
+  height: 330px;
+  /*box-shadow: 2px 2px 2px 10px black;*/
+}
+
+.btn-primary{
+  background-color: #6355a5!important;
+  border-color: #6355a5!important;
+}
+
+.card-img-top{
+  height: 80%;
+}
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.pizza-box {
+  margin-top: 30px;
+  padding: 20px 10px;
+}
+
+.pizza {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+}
+
+.pizza-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.pizza-content::before {
+  background-image: url("../img/pizza-outer.png");
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.6;
+  content: "";
+  height: 100%;
+  width: 100%;
+}
+
+.pizza-above {
+  position: relative;
+}
+
+.pizza-above > img {
+  width: 80px;
+  height: 80px;
+  margin-top: 100px;
+}
+
+.pizza-above > h4 {
+  color: black;
+  font-size: 60px;
+  font-family: "Dancing Script", cursive;
+}
+
+.pizza-pic {
+  padding: 18px 18px;
+}
+
+.icon-outercontainer{
+  width: 100%;
+  height: 250px;
+  /* background: url('../img/icon-banner.png');
+  background-size: 100% 100%; */
+}
+
+.icons-container{
+  display: flex;
+  height: 210px;
+  font-size: 17px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.icon1{
+  width: 23%;
+  height: 100%;
+  text-align: center;
+  box-shadow: 5px 2px 20px black;
+  margin: 2px 20px;
+  padding: 10px 10px;
+}
+
+
+
+.icon{
+  width: 170px;
+  height: 150px;
+  text-align: center;
+}
+
+.features{
+  text-align: center;
+  margin: 20px 20px;
+  font-family: 'Lobster', cursive;
+  color: black;
+}
+
+
+/*----------- CARDS ---------------*/
+   .card-holder1{
+      margin: 10px auto;
+      width: 600px;
+      height: 410px;
+      border-radius: 100px;
+   }
+
+   .card-holder{
+      margin: 10px auto;
+      width: 80%;
+      height: 220px;
+      border-radius: 100px;
+    }
+
+    .imageholder{
+      width: 100%;
+      height: 85%;
+    }
+
+    .jumbotron{
+      background: url(../img/backgroundproducts.png);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      margin-bottom: 0px!important;
+      border-radius: 0% !important;
+    }
+
+    .jumbo2{
+      margin-top: 0px!important;
+      background: url(../img/backgroundproducts3.png)!important;
+      background-size: 100% 100% !important;
+      background-repeat: no-repeat; 
+      border-radius: 0% !important;
+    }
+
+
+    .footer{
+      height: 100px;
+      background-color: #112223;
+      position: relative;
+      background-image: url("../img/footer.png");
+      background-size: 100% 100%;
+      display: flex;
+    }
+
+    .links{
+      width: 60%;
+      padding: 20px 20px;
+      font-size: 20px;
+    }
+
+    .social-links{
+      width: 40%;
+      padding: 20px 20px;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .footer >.links>a{
+      color: black;
+      text-decoration: none;
+      margin: 10px 10px;
+    }
+
+  
+    .imageholder>a>img{
+      width: 100%;
+      height: 100%; 
+    }
+
+    .cardbody{
+      width: 100%;
+      height: 15%;
+    }
+
+    .cardbody>button{
+      width: 100%;
+      height: 100%;
+      background-color: #5032b7;
+      color: white;
+      font-size: 24px;
+      border: none;
+      font-family: 'Lobster', cursive;
+    }
+
+    .cardbody>button:hover{
+      background-color: #3c49cd;
+      cursor: pointer;
+    }
+
+    .columncard{
+      padding: 20px 20px !important;
+    }
