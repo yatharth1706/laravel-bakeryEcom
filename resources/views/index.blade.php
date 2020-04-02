@@ -27,42 +27,27 @@
       </div>
       <div class="banner-img">
         <img class="img3" src="{{ asset('img/party.png') }}" alt="" />
-<<<<<<< HEAD
         @if (Session::has('username'))
           <div><h1>welcome {{session('username')}}</h1></div>
-          
           @endif
-=======
->>>>>>> 407a753755681bd5e74e117260c5128677ad6e67
       </div>
       <nav class="nav1 row">
         <div class="col-5 logo-content">
           <p class="logo">Bakery Town</p>
         </div>
         <div class=" nav1-links col-5">
-<<<<<<< HEAD
           <a href="index.php" style="color:white">Home</a>
           <a href="" style="color: white">About</a>
           <a href="">Menu</a>
           <a href="">Contact</a>
           @if (Session::has('username'))
-          <a href="{{url('logout')}}">logout</a>
+          <a href="{{url('signup')}}">logout</a>
           @endif
 
           
         </div>
         <div class="nav1-cart col-2">
           <a href="cart.php"><i class="fas fa-shopping-cart"></i></a>
-=======
-          <a href="/" style="color:white">Home</a>
-          <a href="" style="color: white">About</a>
-          <a href="">Menu</a>
-          <a href="">Contact</a>
-          
-        </div>
-        <div class="nav1-cart col-2">
-          <a href="/cart"><i class="fas fa-shopping-cart"></i></a>
->>>>>>> 407a753755681bd5e74e117260c5128677ad6e67
           <a href=""><i class="fas fa-user-circle"></i></a>
         </div>
       </nav>
