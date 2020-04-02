@@ -33,14 +33,14 @@
           <p class="logo">Bakery Town</p>
         </div>
         <div class=" nav1-links col-5">
-          <a href="index.php" style="color:white">Home</a>
+          <a href="/" style="color:white">Home</a>
           <a href="" style="color: white">About</a>
           <a href="">Menu</a>
           <a href="">Contact</a>
           
         </div>
         <div class="nav1-cart col-2">
-          <a href="cart.php"><i class="fas fa-shopping-cart"></i></a>
+          <a href="/cart"><i class="fas fa-shopping-cart"></i></a>
           <a href=""><i class="fas fa-user-circle"></i></a>
         </div>
       </nav>

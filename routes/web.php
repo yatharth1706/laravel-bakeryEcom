@@ -35,3 +35,5 @@ Route::get('/product', function () {
 
 
 Route::get('/products', 'cakeController@index');
+Route::post('/products','CartController@save');
+Route::get('/cart','CartController@show');

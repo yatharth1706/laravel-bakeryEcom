@@ -32,8 +32,9 @@
         						<p class="card-text"><strong>{{ $item->cost }} </strong><span style="float: right">{{ $item->reviews}} </span></p>
         						<p class="card-text">{{ $item->summary }}</p>
         						<p class="card-text input-fields">
-        							<form class="form-container" action="" method = "POST">
-        								<input class="form-control" type="number" name="quantity" placeholder = "Number of items">
+        							<form class="form-container" action="/products" method = "POST">
+        								@csrf
+										<input class="form-control" type="number" name="quantity" placeholder = "Number of items">
         								<input type="hidden" name="hidden_name" value="{{ $item->title }}">
         								<input type="hidden" name="hidden_cost" value="{{$item->cost}}">
         								<button class="btn btn-primary" name="cart">Add to Cart</button>

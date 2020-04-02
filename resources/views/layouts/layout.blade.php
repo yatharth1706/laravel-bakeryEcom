@@ -21,13 +21,13 @@
           <p class="logo">Bakery Town</p>
         </div>
         <div class=" nav1-links col-5">
-          <a href="../template/index.php">Home</a>
+          <a href="/">Home</a>
           <a href="#">About</a>
           <a href="#">Menu</a>
           <a href="#">Contact</a>
         </div>
         <div class="nav1-cart col-2">
-          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          <a href="/cart"><i class="fas fa-shopping-cart"></i></a>
           <a href=""><i class="fas fa-user-circle"></i></a>
         </div>
   </nav>
