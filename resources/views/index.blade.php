@@ -49,7 +49,7 @@
           
         </div>
         <div class="nav1-cart col-2">
-          <a href="cart.php"><i class="fas fa-shopping-cart"></i></a>
+          
           <a href="/cart"><i class="fas fa-shopping-cart"></i></a>
           <a href=""><i class="fas fa-user-circle"></i></a>
         </div>
