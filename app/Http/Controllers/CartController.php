@@ -22,6 +22,7 @@ class CartController extends Controller
         // $cart->save();
         // return redirect('/');
 
+        
         $tableName = session('username')."_cart";
         $sql = "insert into " . $tableName . "(name,cost,quantity) values(?,?,?)";
         DB::insert($sql,[$request->input('hidden_name'),$request->input('hidden_cost'),$request->input('quantity')]);
@@ -29,8 +30,17 @@ class CartController extends Controller
         return redirect("/products");
     }
 
-    public function show(){
-        $tableName = session('username')."_cart"; 
+    public function show(Request $request){
+        // for delete action
+        $tableName = session('username')."_cart";
+        if($request->input('action') == 'delete'){
+            
+            DB::table($tableName)->delete($request->input('id'));
+            
+            return redirect('/cart');
+        }
+        
+         
         $sql = "SELECT * FROM " . $tableName;
         $items = DB::select($sql);
         

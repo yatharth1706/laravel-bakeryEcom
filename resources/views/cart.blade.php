@@ -25,7 +25,7 @@
 			  	<td> {{ $item->cost }} </td>
 				<td> {{ $item->quantity }} </td>
 				<td>{{ $item->quantity*$item->cost }} </td>
-				<td><a href="#"><span>Remove</span></a></td>
+				<td><a href="cart?action=delete&id={{$item->id}}"><span>Remove</span></a></td>
 		    </tr>
             @php($total = $total + $item->quantity*$item->cost) 
             @endforeach
