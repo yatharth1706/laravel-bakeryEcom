@@ -1,0 +1,22 @@
+.welcome {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+  }
+  
+  .row {
+    margin: 0 !important;
+  }
+  
+  .product {
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  .product button {
+    margin-top: 20px;
+  }
+  
