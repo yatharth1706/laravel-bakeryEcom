@@ -27,16 +27,29 @@
       </div>
       <div class="banner-img">
         <img class="img3" src="{{ asset('img/party.png') }}" alt="" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> beda2a8ddd1713671d3532c7b4b66fe0028b425d
         @if (Session::has('username'))
           <div><h1>welcome {{session('username')}}</h1></div>
           
           @endif
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 407a753755681bd5e74e117260c5128677ad6e67
+>>>>>>> beda2a8ddd1713671d3532c7b4b66fe0028b425d
       </div>
       <nav class="nav1 row">
         <div class="col-5 logo-content">
           <p class="logo">Bakery Town</p>
         </div>
         <div class=" nav1-links col-5">
+<<<<<<< HEAD
+          <a href="index.php" style="color:white">Home</a>
+=======
+<<<<<<< HEAD
           <a href="index.php" style="color:white">Home</a>
           <a href="" style="color: white">About</a>
           <a href="">Menu</a>
@@ -49,6 +62,25 @@
         </div>
         <div class="nav1-cart col-2">
           <a href="cart.php"><i class="fas fa-shopping-cart"></i></a>
+=======
+          <a href="/" style="color:white">Home</a>
+>>>>>>> beda2a8ddd1713671d3532c7b4b66fe0028b425d
+          <a href="" style="color: white">About</a>
+          <a href="">Menu</a>
+          <a href="">Contact</a>
+          @if (Session::has('username'))
+          <a href="{{url('logout')}}">logout</a>
+          @endif
+
+          
+        </div>
+        <div class="nav1-cart col-2">
+<<<<<<< HEAD
+          <a href="cart.php"><i class="fas fa-shopping-cart"></i></a>
+=======
+          <a href="/cart"><i class="fas fa-shopping-cart"></i></a>
+>>>>>>> 407a753755681bd5e74e117260c5128677ad6e67
+>>>>>>> beda2a8ddd1713671d3532c7b4b66fe0028b425d
           <a href=""><i class="fas fa-user-circle"></i></a>
         </div>
       </nav>

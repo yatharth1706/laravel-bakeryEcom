@@ -36,6 +36,7 @@
                 type="text"
                 name="username"
                 placeholder="please enter your username"
+                value=""
               />
             </div>
             <div>
