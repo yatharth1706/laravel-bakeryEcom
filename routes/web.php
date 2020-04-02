@@ -32,3 +32,6 @@ Route::get('/login', function () {
 Route::get('/product', function () {
     return view('product');
 });
+
+
+Route::get('/products', 'cakeController@index');

@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Tangerine&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h3{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.logo-content {
+  text-align: center;
+}
+
+.logo {
+  /* font-family: "Tangerine", cursive; */
+  color: white;
+  font-size: 55px;
+}
+
+.row{
+  margin: 0;
+  width: 100%;
+}
+.nav1 {
+  border-top: solid #222222 2px;
+  top: 0;
+  width: 100%;
+  background-color: #54c5a6;
+  height: 100px;
+}
+
+.nav1-links {
+  font-size: 20px;
+  margin: 15px auto;
+}
+
+.nav1-links a {
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  text-decoration: none !important;
+  float: left;
+}
+
+.nav1-cart {
+  text-align: center;
+  font-size: 30px;
+  margin: 15px auto;
+  padding: 15px;
+}
+
+.nav1-cart a {
+  padding: 10px;
+  color: white;
+}
+
+.card-outer{
+  width: 100%;
+  background-color: black;
+}
+
+.product-container{
+  padding: 18px 28px;
+}
+
+.card-holder{
+  margin-top: 20px;
+}
+
+.form-container>input{
+  width: 50%;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.form-container>button{
+  float: right;
+}
+
+
+.cart-container{
+  width: 60%;
+  margin: 40px auto;
+}
