@@ -12,6 +12,7 @@ class VerifyCsrfToken extends Middleware
      * @var array
      */
     protected $except = [
+        'http://localhost/laravel-bakeryEcom-master/public/addProduct',
         //
     ];
 }

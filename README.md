@@ -2,6 +2,8 @@
 
 <p align="center">:cake: :coffee: :pizza: :birthday: :hamburger: :cocktail:</p>
 
+<<<<<<< HEAD
+=======
 ### Steps to Run this Locally
     * Clone this Project
     * Run composer install command in your terminal to install all the required dependencies
@@ -10,6 +12,7 @@
     * Now you are good to Go
     * Switch on xampp server or just write php artisan serve to switch on the server
 
+>>>>>>> 407a753755681bd5e74e117260c5128677ad6e67
 ### Front Page
 
 ![Bakery Town](https://yatharth1706.github.io/assets/bakerywebsite.PNG "Front page")

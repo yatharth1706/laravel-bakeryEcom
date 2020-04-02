@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,13 +13,11 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/authpage.css?v=<?php echo time()?>" media="all"/>
+    <link rel="stylesheet" href="{{asset('css/authpage.css')}}" media="all"/>
   
   </head>
   <body>
-    @extends('layouts.layout')
-
-    @section('content')
+  
     <div class="wrapper">
 
       <div class="first"></div>
@@ -26,10 +27,11 @@
         <div class="signup">
          
           <button class="signup-heading">SIGN UP</button>
-          <form action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
+          <form action="userdetail" method="post">
+             @csrf
             <div>
-              <label for="">Username:</label>
-              <span class="error"><br />
+              <label for="">Username:</label><span class="error">@error('username'){{$message}}@enderror</span>
+              <br />
               <input
                 type="text"
                 name="username"
@@ -38,31 +40,32 @@
             </div>
             <div>
               <label for="email">Email:</label
-              ><span class="error"></span><br />
+              ><span class="error">@error('email'){{$message}}@enderror</span><br />
               <input
                 type="text"
                 name="email"
                 placeholder="please enter your email"
+                value=""
               />
             </div>
             <div>
-              <label for="">Password:</label>
-              <span class="error"></span><br />
+              <label for="">Password:</label><span class="error">@error('password'){{$message}}@enderror</span>
+             <br />
               <input
                 type="password"
                 name="password"
                 placeholder="please enter your password"
-        
+                value=""
               />
             </div>
             <div>
               <label for="">Confirm Password:</label
-              ><br />
+              ><span class="error">@error('conpassword'){{$message}}@enderror</span><br />
               <input
                 type="password"
                 name="conpassword"
                 placeholder="confirm your password"
-                >"
+                value=""
               />
             </div>
             <div class="signup-button">
@@ -70,7 +73,9 @@
                 submit
               </button>
             </div>
-            <p class="error"></p>
+            @if(session('successSignup'))
+            <div><p class="success">{{session('successSignup')}}</p></div>
+            @endif
           </form>
         </div>
 
@@ -79,13 +84,12 @@
         <div class="switcher">
           <div class="login-switcher">
             <p>If you have existing account</p>
-            <button > <a href="loginpage.php">LOG IN</a>  </button>
+            <button ><a href="{{url('login')}}">LOG IN</a>  </button>
           </div>
           
         </div>
       </div>
     </div>
-    <!-- <script type="text/javascript" src="../js/authpage.js"></script> -->
-    @endsection
+    
   </body>
 </html>

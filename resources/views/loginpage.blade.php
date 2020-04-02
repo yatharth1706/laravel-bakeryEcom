@@ -29,19 +29,25 @@
         <!--login-->
         <div class="login">
           <button class="login-heading">LOG IN</button>
-          <form action="../php/login.php" method="post">
+          <form action="checkLogin" method="post">
+             @csrf
+             @if($message=Session::get('error'))
+             
+               <span class="error">{{$message}}</span>
+             
+             @endif
             <div>
-              <label for="">email:</label><br />
+              <label for="">email:</label><span class="error">@error('email'){{$message}}@enderror</span><br />
               <input
                 type="email"
                 name="email"
                 placeholder="please enter your email"
               />
-              
+             
             </div>
 
             <div>
-              <label for="">Password:</label><br />
+              <label for="">Password:</label><span class="error">@error('password'){{$message}}@enderror</span><br />
               <input
                 type="password"
                 name="password"
@@ -55,14 +61,14 @@
                 LOG IN
               </button>
             </div>
-            
+           
           </form>
         </div>
 
         <div class="switcher">
         <div class="signup-switcher">
             <p>If you don't have any account, please sign up</p>
-            <button > <a href="authpage.php">SIGN UP</a>  </button>
+            <button > <a href="{{url('signup')}}">SIGN UP</a>  </button>
           </div>
             
         </div>
