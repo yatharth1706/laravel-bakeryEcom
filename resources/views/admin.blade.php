@@ -17,6 +17,10 @@
     ></script>
 </head>
 <body>
+
+      @extends('layouts.layout')
+
+      @section('content')
      <div class="welcome">
      <h1>WELCOME MASTER</h1>
      </div>
@@ -39,5 +43,6 @@
          <button class="btn btn-block btn-primary">GO TO THE PRODUCT</button>
        </form>
      </div>
+     @endsection
 </body>
 </html>

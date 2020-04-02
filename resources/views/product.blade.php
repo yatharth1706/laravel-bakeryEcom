@@ -13,6 +13,10 @@
     />
   </head>
   <body>
+
+      @extends('layouts.layout')
+
+      @section('content')
       <div class="table-box">
           <h1></h1>
        <table>
@@ -31,5 +35,7 @@
              <a class="btn btn-primary btn-block" href="#">add items</a>
         </div>
        </div>
+
+       @endsection
   </body>
   </html>

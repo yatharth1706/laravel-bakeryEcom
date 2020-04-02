@@ -14,6 +14,9 @@
   
   </head>
   <body>
+    @extends('layouts.layout')
+
+    @section('content')
     <div class="wrapper">
 
       <div class="first"></div>
@@ -83,5 +86,6 @@
       </div>
     </div>
     <!-- <script type="text/javascript" src="../js/authpage.js"></script> -->
+    @endsection
   </body>
 </html>
