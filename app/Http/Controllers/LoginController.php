@@ -74,6 +74,6 @@ class LoginController extends Controller
     function logout()
     {  
         Session::forget('username');
-        return redirect('index');
+        return redirect('/');
     }
 }

@@ -43,7 +43,7 @@
           <a href="">Menu</a>
           <a href="">Contact</a>
           @if (Session::has('username'))
-          <a href="{{url('signup')}}">logout</a>
+          <a href="/logout">logout</a>
           @endif
 
           
