@@ -35,3 +35,15 @@ Route::get('/admin','AdminController@index');
 Route::post('/adminProduct','AdminController@productSelector');
 Route::get('/product','ProductController@index');
 Route::post('/addProduct','ProductController@addProduct');
+Route::get('/admin', function () {
+    return view('admin');
+});
+
+
+
+
+
+
+Route::get('/products', 'cakeController@index');
+Route::post('/products','CartController@save');
+Route::get('/cart','CartController@show');

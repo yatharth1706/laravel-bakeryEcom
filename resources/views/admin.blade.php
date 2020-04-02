@@ -17,13 +17,24 @@
     ></script>
 </head>
 <body>
+<<<<<<< HEAD
+=======
+
+      @extends('layouts.layout')
+
+      @section('content')
+>>>>>>> 407a753755681bd5e74e117260c5128677ad6e67
      <div class="welcome">
      <h1>WELCOME MASTER</h1>
      </div>
        <div class="product">
           <h2>PRODUCTS</h2>
+<<<<<<< HEAD
        <form action="adminProduct" method="post">
          @csrf
+=======
+       <form action="../php/product.php" method="post">
+>>>>>>> 407a753755681bd5e74e117260c5128677ad6e67
          <div class="form-group">
          <select class="form-control" name="product" >
            <option value="cupcakes" selected>CUPCAKES</option>
@@ -40,5 +51,9 @@
          <button class="btn btn-block btn-primary">GO TO THE PRODUCT</button>
        </form>
      </div>
+<<<<<<< HEAD
+=======
+     @endsection
+>>>>>>> 407a753755681bd5e74e117260c5128677ad6e67
 </body>
 </html>

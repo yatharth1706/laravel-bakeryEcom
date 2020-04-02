@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,7 +16,10 @@
 </script>
   </head>
   <body>
-  
+
+    @extends('layouts.layout')
+
+    @section('content')
     <div class="wrapper">
 
       <div class="first"></div>
@@ -72,5 +74,6 @@
         </div>
       </div>
     </div>
+    @endsection
   </body>
 </html>

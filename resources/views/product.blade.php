@@ -13,8 +13,12 @@
     />
   </head>
   <body>
+
+      @extends('layouts.layout')
+
+      @section('content')
       <div class="table-box">
-          
+          <h1></h1>
        <table>
            <tr class="thh">
                <td>id</td>
@@ -61,6 +65,7 @@
              <a class="btn btn-primary btn-block" href="{{url('addProduct')}}">add items</a>
         </div>
        </div>
+       @endsection
   </body>
   </html>
 <!-- 
