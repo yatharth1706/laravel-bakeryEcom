@@ -1,20 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-<<<<<<< HEAD
 }
 
 .wrapper {
-=======
-  }
-  
-  .wrapper {
->>>>>>> 407a753755681bd5e74e117260c5128677ad6e67
     height: 600px;
     width: 100%;
     display: flex;
     position: relative;
-<<<<<<< HEAD
 }
 
 .first {
@@ -29,22 +22,6 @@
 }
 
 .form-box {
-=======
-  }
-  
-  .first {
-    width: 50%;
-    height: 100%;
-    background-color: #0062cc;
-  }
-  
-  .second {
-    width: 50%;
-    height: 100%;
-  }
-  
-  .form-box {
->>>>>>> 407a753755681bd5e74e117260c5128677ad6e67
     height: 70%;
     width: 70%;
     position: absolute;
@@ -52,35 +29,22 @@
     top: 15%;
     display: flex;
     box-shadow: 5px 5px 40px black;
-<<<<<<< HEAD
 }
 
 .signup {
-=======
-  }
-  
-  .signup {
->>>>>>> 407a753755681bd5e74e117260c5128677ad6e67
     width: 50%;
     height: 100%;
     background-color: #ffffff;
     padding: 30px;
-<<<<<<< HEAD
 }
 
 .signup-heading {
-=======
-  }
-  
-  .signup-heading {
->>>>>>> 407a753755681bd5e74e117260c5128677ad6e67
     width: 100%;
     background: #ffffff;
     font-size: 40px;
     font-weight: 400;
     border: none;
     outline-style: none;
-<<<<<<< HEAD
 }
 
 .signup-heading:focus {
@@ -88,22 +52,12 @@
 }
 
 .signup input {
-=======
-  }
-  
-  .signup-heading:focus {
-    outline-style: none;
-  }
-  
-  .signup input {
->>>>>>> 407a753755681bd5e74e117260c5128677ad6e67
     width: 90%;
     outline: 0;
     border-width: 0 0 1.5px;
     border-color: black;
     font-size: 13px;
     padding: 0 0 2px;
-<<<<<<< HEAD
 }
 
 .signup label {
@@ -123,47 +77,19 @@
 }
 
 .login {
-=======
-  }
-  
-  .signup label {
-    margin: 0;
-  }
-  
-  .signup h1 {
-    text-align: center;
-  }
-  .signup-button {
-    text-align: center;
-    padding: 20px 0px;
-  }
-  
-  .signup-button .btn {
-    width: 80% !important;
-  }
-  
-  .login {
->>>>>>> 407a753755681bd5e74e117260c5128677ad6e67
     width: 50%;
     height: 100%;
     background-color: #ffffff;
     padding: 30px;
-<<<<<<< HEAD
 }
 
 .login-heading {
-=======
-  }
-  
-  .login-heading {
->>>>>>> 407a753755681bd5e74e117260c5128677ad6e67
     width: 100%;
     background: #ffffff;
     font-size: 28px;
     font-weight: 400;
     border: none;
     outline-style: none;
-<<<<<<< HEAD
 }
 
 .login-heading:focus {
@@ -171,22 +97,12 @@
 }
 
 .login input {
-=======
-  }
-  
-  .login-heading:focus {
-    outline-style: none;
-  }
-  
-  .login input {
->>>>>>> 407a753755681bd5e74e117260c5128677ad6e67
     width: 90%;
     outline: 0;
     border-width: 0 0 1.5px;
     border-color: black;
     font-size: 13px;
     padding: 0 0 2px;
-<<<<<<< HEAD
 }
 
 .login label {
@@ -205,33 +121,12 @@
     width: 80% !important;
 }
 .switcher {
-=======
-  }
-  
-  .login label {
-    margin: 0;
-  }
-  
-  .login h1 {
-    text-align: center;
-  }
-  .login-button {
-    text-align: center;
-    padding: 20px 0px;
-  }
-  
-  .login-button .btn {
-    width: 80% !important;
-  }
-  .switcher {
->>>>>>> 407a753755681bd5e74e117260c5128677ad6e67
     width: 50%;
     height: 100%;
     background-color: #0062cc;
     padding: 30px;
     display: flex;
     align-items: center;
-<<<<<<< HEAD
 }
 
 .login-switcher {
@@ -240,16 +135,6 @@
 }
 
 .login-switcher button {
-=======
-  }
-  
-  .login-switcher {
-    color: white;
-    margin: 0 auto;
-  }
-  
-  .login-switcher button {
->>>>>>> 407a753755681bd5e74e117260c5128677ad6e67
     background-color: #ffffff;
     color: #0062cc;
     font-weight: 600;
@@ -257,7 +142,6 @@
     padding: 8px;
     border: none;
     border-radius: 8px;
-<<<<<<< HEAD
 }
 
 .login-switcher a {
@@ -274,24 +158,6 @@
 }
 
 .signup-switcher button {
-=======
-  }
-  
-  .login-switcher a {
-    text-decoration: none;
-  }
-  
-  .login-switcher button:focus {
-    outline-style: none;
-  }
-  
-  .signup-switcher {
-    color: white;
-    margin: 0 auto;
-  }
-  
-  .signup-switcher button {
->>>>>>> 407a753755681bd5e74e117260c5128677ad6e67
     background-color: #ffffff;
     color: #0062cc;
     font-weight: 600;
@@ -299,7 +165,6 @@
     padding: 8px;
     border: none;
     border-radius: 8px;
-<<<<<<< HEAD
 }
 
 .signup-switcher a {
@@ -321,21 +186,3 @@
     font-size: 12px;
     margin-left: 12px;
 }
-=======
-  }
-  
-  .signup-switcher a {
-    text-decoration: none;
-  }
-  
-  .signup-switcher button:focus {
-    outline-style: none;
-  }
-  
-  .error {
-    color: red;
-    font-size: 12px;
-    margin-left: 12px;
-  }
-  
->>>>>>> 407a753755681bd5e74e117260c5128677ad6e67
