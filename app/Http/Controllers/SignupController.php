@@ -22,6 +22,8 @@ class SignupController extends Controller
         ]);
         
         DB::insert('insert into users (username, email,password) values (?, ?, ?)', array($request->input('username'), $request->input('email'),$request->input('password')));
+    
+        
         return redirect()->back()->with('successSignup', 'You have been successfully signed up');
      
 
