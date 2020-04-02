@@ -2,6 +2,14 @@
 
 <p align="center">:cake: :coffee: :pizza: :birthday: :hamburger: :cocktail:</p>
 
+### Steps to Run this Locally
+    * Clone this Project
+    * Run composer install command in your terminal to install all the required dependencies
+    * copy .env.example to .env file
+    * Write php artisan key:generate command on your terminal
+    * Now you are good to Go
+    * Switch on xampp server or just write php artisan serve to switch on the server
+
 ### Front Page
 
 ![Bakery Town](https://yatharth1706.github.io/assets/bakerywebsite.PNG "Front page")
