@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Redirect;
+
 use Validator;
 use Auth;
 use Session;
@@ -27,7 +29,7 @@ class CartController extends Controller
         $sql = "insert into " . $tableName . "(name,cost,quantity) values(?,?,?)";
         DB::insert($sql,[$request->input('hidden_name'),$request->input('hidden_cost'),$request->input('quantity')]);
 
-        return redirect("/products");
+        return Redirect::back()->with('message','Added to cart!');;
     }
 
     public function show(Request $request){

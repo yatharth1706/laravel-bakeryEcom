@@ -43,9 +43,10 @@
           <a href="">Menu</a>
           <a href="">Contact</a>
           @if (Session::has('username'))
-          <a href="/logout">logout</a>
+          <a href="/logout">Logout</a>
+          @else
+          <a href="/signup">Signup/Login</a>
           @endif
-
           
         </div>
         <div class="nav1-cart col-2">
@@ -69,7 +70,7 @@
             <a href=""><img src="{{ asset('img/Cupcakes.jpg') }}"></a>
           </div>
           <div class="cardbody">
-            <button onclick="window.location.href = 'details.php?product=cupcakes';">CupCakes</button>
+            <button onclick="window.location.href = 'products?item=cupcakes';">CupCakes</button>
           </div>
         </div>
       </div>
@@ -80,7 +81,7 @@
             <a href=""><img src="{{ asset('img/Cookies.jpg') }}"></a>
           </div>
           <div class="cardbody">
-            <button onclick="window.location.href = 'details.php?product=cookies';">Cookies</button>
+            <button onclick="window.location.href = 'products?item=cookies';">Cookies</button>
           </div>
         </div>
       </div>
@@ -91,7 +92,7 @@
             <a href=""><img src="{{ asset('img/cakes.jpg') }}"></a>
           </div>
           <div class="cardbody">
-            <button onclick="window.location.href = 'details.php?product=cakes';">Cakes</button>
+            <button onclick="window.location.href = 'products?item=cakes';">Cakes</button>
           </div>
         </div>
       </div>
@@ -102,7 +103,7 @@
             <a href=""><img src="{{ asset('img/breads.jpg') }}"></a>
           </div>
           <div class="cardbody">
-            <button onclick="window.location.href = 'details.php?product=breads';">Breads</button>
+            <button onclick="window.location.href = 'products?item=breads';">Breads</button>
           </div>
         </div>
       </div>
@@ -115,7 +116,7 @@
             <a href=""><img src="{{ asset('img/pizza.jpg') }}"></a>
           </div>
           <div class="cardbody">
-            <button onclick="window.location.href = 'details.php?product=pizzas';">Pizza</button>
+            <button onclick="window.location.href = 'products?item=pizzas';">Pizza</button>
           </div>
         </div>
       </div>
@@ -131,7 +132,7 @@
             <a href=""><img src="{{ asset('img/pudding.jpg') }}"></a>
           </div>
           <div class="cardbody">
-            <button onclick="window.location.href = 'details.php?product=puddings';">Puddings</button>
+            <button onclick="window.location.href = 'products?item=puddings';">Puddings</button>
           </div>
         </div>
       </div>
@@ -142,7 +143,7 @@
             <a href=""><img src="{{ asset('img/jam.jpg') }}"></a>
           </div>
           <div class="cardbody">
-            <button onclick="window.location.href = 'details.php?product=jams';">Jams</button>
+            <button onclick="window.location.href = 'products?item=jams';">Jams</button>
           </div>
         </div>
       </div>
@@ -153,7 +154,7 @@
             <a href=""><img src="{{ asset('img/pickle.jpg') }}"></a>
           </div>
           <div class="cardbody">
-            <button onclick="window.location.href = 'details.php?product=pickles';">Pickles</button>
+            <button onclick="window.location.href = 'products?item=pickles';">Pickles</button>
           </div>
         </div>
       </div>
@@ -164,7 +165,7 @@
             <a href=""><img src="{{ asset('img/decoration.jpg') }}"></a>
           </div>
           <div class="cardbody">
-            <button onclick="window.location.href = 'details.php?product=decoration';">Decoration</button>
+            <button onclick="window.location.href = 'products?item=decoration';">Decoration</button>
           </div>
         </div>
       </div>

@@ -25,6 +25,11 @@
           <a href="#">About</a>
           <a href="#">Menu</a>
           <a href="#">Contact</a>
+          @if (Session::has('username'))
+          <a href="/logout">Logout</a>
+          @else
+          <a href="/signup">Signup/Login</a>
+          @endif
         </div>
         <div class="nav1-cart col-2">
           <a href="/cart"><i class="fas fa-shopping-cart"></i></a>

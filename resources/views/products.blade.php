@@ -19,7 +19,7 @@
 	@section('content')
 	<div class="product-container container-fluid">
 		<div class="row">
-		@foreach($cakes as $item)
+		@foreach($items as $item)
 			<div class="col-sm-12 col-md-6 card-holder">
 				<div class="card mb-3" style="width: 600px;height: auto;">
   					<div class="row no-gutters">

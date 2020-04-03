@@ -31,7 +31,7 @@ class LoginController extends Controller
                 Session::put('username',$users[0]->username);
                 $tableName = $users[0]->username;
 
-                $sql = "create table IF NOT EXISTS " . $tableName . "_cart(id INT AUTO_INCREMENT,name VARCHAR(20) NOT NULL, cost INT,quantity INT, primary key (id))";
+                $sql = "create table IF NOT EXISTS " . $tableName . "_cart(id INT AUTO_INCREMENT,name VARCHAR(255) NOT NULL, cost INT,quantity INT, primary key (id))";
                 
                 DB::statement($sql);
                 if($users[0]->username=='admin')
